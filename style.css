@@ -1,70 +1,62 @@
-
-
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  background-color: #f9fafb;
-  font-family: 'Open sans', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
+	background-color: #f9fafb;
+	font-family: 'Open sans', sans-serif;
 }
 
 h2 {
-  margin-top: 30px;
-  margin-bottom: 5px;
-  text-align: center;
-  color: #636366;
+	margin: 18px 0 40px 0;
+	text-align: center;
+	color: #636366;
 }
 
 .container {
-  background-color: white;
-  border-radius: 45px;
-  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.3);
-  width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
 }
 
 .card {
-  padding: 30px 40px;
- 
+	padding: 30px 40px;
+	background-color: white;
+	border-radius: 45px;
+	box-shadow: 0 2px 9px rgba(0, 0, 0, 0.3);
+	width: 400px;
 }
 
 input {
-  width: 100%;
-  font-size: 15px;
-   margin-bottom: 10px;
-  padding-bottom: 20px;
-   outline: none;
-  border:none;
- border-bottom: 1px solid #bdbdc1;
+	width: 100%;
+	font-size: 15px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	outline: 0;
+	border: 0;
+	border-bottom: 1px solid #bdbdc1;
 }
-::placeholder{
-    color: #bdbdc1;
-    font-size: large;
+::placeholder {
+	color: #bdbdc1;
+	font-size: large;
 }
-
-
 
 button {
-  cursor: pointer;
-  background-color: #4ca4de;
-  border: 2px solid #4ca4de;
-  border-radius: 50px;
-  display: block;
-  font-size: 16px;
-  padding: 10px;
-  margin-top: 20px;
-  color: #fff;
-  width: 100%;
+	cursor: pointer;
+	background-color: #4ca4de;
+	border: 2px solid #4ca4de;
+	border-radius: 50px;
+	display: block;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	color: #fff;
+	width: 100%;
 }
 
-
-
-button:hover{
- background-color: #128bdb;
-  border: 2px solid #128bdb;
+button:hover {
+	background-color: #128bdb;
+	border: 2px solid #128bdb;
 }
